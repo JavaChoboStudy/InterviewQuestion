@@ -58,7 +58,7 @@
 <details>
 <summary>TCP 3-Way Handshake에 대해서 설명해주세요.</summary>
 <div markdown="1">
-![tcp](https://user-images.githubusercontent.com/36688619/196090240-f9bf779a-40b2-425a-a2b2-48bccffcdc88.png)<br>
+<img src="https://user-images.githubusercontent.com/36688619/196090240-f9bf779a-40b2-425a-a2b2-48bccffcdc88.png" width="461" height="366"><br>
 1. 클라이언트가 서버에게 SYN 패킷을 보냄 (sequence : x)<br>
 2. 서버가 SYN(x)을 받고, 클라이언트로 받았다는 신호인 ACK와 SYN 패킷을 보냄 (sequence : y, ACK : x + 1)<br>
 3. 클라이언트는 서버의 응답은 ACK(x+1)와 SYN(y) 패킷을 받고, ACK(y+1)를 서버로 보냄<br>
@@ -78,7 +78,7 @@
 <details>
 <summary>SSL Handshake에 대해서 설명해주세요.</summary>
 <div markdown="1">
-![ssl](https://user-images.githubusercontent.com/36688619/196090207-271b88b3-e37d-45b5-9bc1-7caa0497aaec.png)<br>
+<img src="https://user-images.githubusercontent.com/36688619/196090207-271b88b3-e37d-45b5-9bc1-7caa0497aaec.png" width="500" height="470"><br>
 1. 클라이언트는 서버에게 `client hello` 메시지를 담아 서버로 보낸다. 이때 암호화된 정보를 함께 담는데, `버전`, `암호 알고리즘`, `압축 방식` 등을 담는다.<br>
 2. 서버는 클라이언트가 보낸 암호 알고리즘과 압축 방식을 받고, `세션 ID`와 `CA 공개 인증서`를 `server hello` 메시지와 함께 담아 응답한다. 이 CA 인증서에는 앞으로 통신 이후 사용할 대칭키가 생성되기 전, 클라이언트에서 handshake 과정 속 암호화에 사용할 공개키를 담고 있다.<br>
 3. 클라이언트 측은 서버에서 보낸 CA 인증서에 대해 유효한 지 CA 목록에서 확인하는 과정을 진행한다.<br>
