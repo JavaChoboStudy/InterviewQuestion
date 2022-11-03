@@ -266,4 +266,32 @@
 5. Dependency Inversion Principle(DIP) - 의존관계 역전<br>
     - 자신(high level module)보다 변하기 쉬운 모듈(low level modeul)에 의존해서는 안된다.
 </div>
+</details><br>
+
+##  번외 (신입 개발자 재직 중에 받은 질문)
+
+<details>
+<summary>네스티드 루프 조인과 해쉬 조인의 차이점에 대해서 설명해주세요.</summary>
+<div markdown="1">
+</div>
+</details>
+<details>
+<summary>스케일 업, 스케일 아웃이 무엇이고 각각 어떤 역할을 하는지 설명해주세요.</summary>
+<div markdown="1">
+</div>
+</details>
+<details>
+<summary>네트워크 터널링이 무엇인지 설명해주세요.</summary>
+<div markdown="1">
+</div>
+</details>
+<details>
+<summary>클러스터란 무엇이고 어떤 역할을 하는지 설명해주세요.</summary>
+<div markdown="1">
+</div>
+</details>
+<details>
+<summary>쓰레드로컬에 대해 아는만큼 설명해주세요.</summary>
+<div markdown="1">
+</div>
 </details>
