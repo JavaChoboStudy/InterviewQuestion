@@ -219,11 +219,6 @@
 </div>
 </details>
 <details>
-<summary>빌더패턴에 대해 알고있나요? 빌더패턴은 어떤 문제를 해결하려고 사용하는건가요?</summary>
-<div markdown="1">       
-</div>
-</details>
-<details>
 <summary>Abstract Class와 Interface의 차이점에 대해서 설명해주세요</summary>
 <div markdown="1">       
     - 추상 클래스와 인터페이스의 차이점은 그 목적이라고 할 수 있습니다.<br>
