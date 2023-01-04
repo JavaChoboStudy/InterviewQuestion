@@ -54,7 +54,11 @@
 </details>
 <details>
 <summary>TCP/IP 4계층이 무엇인지 아나요?</summary>
-<div markdown="1">       
+<div markdown="1">
+1. Network Interface - 하드웨어에 신호를 전달하는데 필요한 정보 덧붙임 
+2. Internet - 수신 측의 컴퓨터 식별 정보 덧붙임
+3. Transport - 전송하기 적합한 크기로 짤라내어 목적지의 프로그램을 식별할수 있는 정보를 덧붙임
+4. Applicattion 
 </div>
 </details>
 <details>
